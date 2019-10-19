@@ -4,6 +4,7 @@ background-image: url("../images/Paper1.jpg");
 background-size: 80%;
 }
 
+
 .container {
     display: flex;
     justify-content: flex-start;
@@ -105,29 +106,29 @@ padding: 0%;
 text-align: center;
 }
 
-img {
+#bio_image {
     float: left;
 }
-
-html,
-body {
-  height: 100%;
-}
-
-.page-content {
-    display: flex;
-  flex: 1 0 auto;
-}
-
-#sticky-footer {
-    display: flex;
-  flex-shrink: none;
-  align-items: center;
-  
-}
-
-#copyright {
-    display: flex;
-    align-items: center;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
     text-align: center;
+}
+
+#p_grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.cover {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    object-position: 50% 38%;
+    padding: 5%;
 }

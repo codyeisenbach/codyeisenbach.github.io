@@ -1,4 +1,4 @@
-img {
+.p_img {
     object-fit: cover;
     width: 400px;
     height: 275px;
@@ -7,31 +7,10 @@ img {
     align-items: stretch;
 }
 
-div {
+#p_grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
 }
 
-html,
-body {
-  height: 100%;
-}
-
-.page-content {
-  flex: 1 0 auto;
-}
-
-#sticky-footer {
-    display: flex;
-  flex-shrink: 0;
-  align-items: center;
-  
-}
-
-#copyright {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
