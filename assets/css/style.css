@@ -68,11 +68,31 @@ padding: 0%;
     width: 100%;
 }
 
-@media only screen and (max-width: 700px) {
-    .nav {
-      display: flex;
+@media only screen and (max-width: 768px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-link {
+        padding: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     
+    }
+
+    .name-header {
+        display: flex;
       justify-content: center;
-      margin-left: 10%;
+      
     }
     
     .card {
@@ -87,15 +107,33 @@ padding: 0%;
     }
 
     .container {
+        display: flex;
+      justify-content: center;
         width: 100%;
         margin: 0%;
  
+    }
+
+    #bio_image {
+        display: block;
+        float: none;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .card-text {
+        display: block;
+        vertical-align: bottom;
+        text-align: center;
+        padding: 2.5%;
     }
 
   }
 
 #bio_image {
     padding: 2.5%;
+    float: left;
 }
 
 .card-text {
@@ -121,9 +159,6 @@ margin-left: 3%;
 
 }
 
-#bio_image {
-    float: left;
-}
 .footer {
     z-index: 1;
     position: fixed;
