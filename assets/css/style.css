@@ -4,6 +4,11 @@ background-image: url("../images/Paper1.jpg");
 background-size: 80%;
 }
 
+h5 {
+color: #5ca9a4;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 25px;
+}
 
 .container {
     display: flex;
@@ -163,7 +168,7 @@ margin-left: 3%;
     justify-content: center;
     align-items: stretch;
     max-width: 90%;
-    border-bottom: 1px solid grey;
+    border-bottom: 1.75px solid grey;
 
 }
 
