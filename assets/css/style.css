@@ -103,7 +103,22 @@ padding: 0%;
 }
 
 .card-title {
+display: flex;
+justify-content: flex-start;
 text-align: center;
+padding: 1%;
+margin-top: 3%;
+margin-left: 3%;
+}
+
+#p_border {
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 90%;
+    border-bottom: 1px solid grey;
+
 }
 
 #bio_image {
@@ -127,8 +142,8 @@ text-align: center;
 
 .cover {
     object-fit: cover;
-    width: 400px;
-    height: 250px;
-    object-position: 50% 38%;
+    width: 250px;
+    height: 200px;
+    object-position: 50% 55%;
     padding: 5%;
 }
