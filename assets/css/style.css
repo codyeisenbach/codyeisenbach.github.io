@@ -75,21 +75,9 @@ padding: 0%;
         justify-content: center;
     }
 
-    .nav-link {
-        padding: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .navbar-brand {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-     
-    }
-
     .name-header {
+        margin: none;
+        padding: none;
         display: flex;
       justify-content: center;
       
@@ -129,7 +117,28 @@ padding: 0%;
         padding: 2.5%;
     }
 
-  }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .page-content {
+       display: flex;
+       justify-content: center;
+    }
+    .nav {
+        margin-left: 24%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name-header {
+        margin-left: 24%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
 
 #bio_image {
     padding: 2.5%;
