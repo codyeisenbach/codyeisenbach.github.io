@@ -70,20 +70,17 @@ padding: 0%;
 
 @media only screen and (max-width: 768px) {
 
-    body {
-        display: flex;
-        justify-content: center;
-    }
 
     .name-header {
         margin: none;
-        padding: none;
         display: flex;
       justify-content: center;
       
     }
     
     .card {
+        margin: 5%;
+        wdith: 100%;
         display: flex;
         justify-content: center;
         align-items: stretch;
@@ -116,23 +113,21 @@ padding: 0%;
         text-align: center;
         padding: 2.5%;
     }
-
 }
 
 @media only screen and (max-width: 640px) {
 
-    .page-content {
-       display: flex;
-       justify-content: center;
-    }
+
     .nav {
-        margin-left: 24%;
+      margin-left: 24%;
         display: flex;
         justify-content: center;
+
     }
 
     .name-header {
-        margin-left: 24%;
+        margin: 0%;
+        width: 100%;
         display: flex;
         justify-content: center;
     }
