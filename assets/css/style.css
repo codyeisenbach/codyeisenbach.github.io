@@ -141,9 +141,32 @@ margin-left: 3%;
 }
 
 .cover {
+    position: relative;
     object-fit: cover;
     width: 250px;
     height: 200px;
     object-position: 50% 55%;
     padding: 5%;
+}
+
+.p_bar {
+  display: flex;
+  transform: translateY(100px);
+  position: absolute;
+  z-index: 1;
+  background-color: #5ca9a4;
+  width: 85.5%;
+  height: 35%;
+  margin-left: 4.5%;
+}
+
+#bar_text {
+    position: absolute;
+    padding: 3.5%;
+    display: flex;
+    justify-content: center;
+    color: white !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px; 
 }
