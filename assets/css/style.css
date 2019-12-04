@@ -85,7 +85,7 @@ padding: 0%;
     
     .card {
         margin: 5%;
-        wdith: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: stretch;
